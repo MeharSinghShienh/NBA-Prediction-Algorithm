@@ -1,5 +1,6 @@
 # NBA-Prediction-Algorithm
-This is a program that uses a Teams data for the season to predict the percentage chance they have of winning a specific matchup.
+This is a program that uses a Teams data for the season to predict the percentage chance they have of winning a specific matchup. It has approximately a 70% accuracy
+rate, a spreadsheet is attached with a 2 month log that was taken during the 2021-22 season to track the results of the algorithm
 
 The program takes a teams data for their 'points scored' along with their 'opponent points allowed' and creates a normal distribution of them, which it takes a 
 random sample from to simulate what they would score in that game. It does this score simulation for each team in a matchup and compares the scores to decide who wins the
